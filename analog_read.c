@@ -10,7 +10,7 @@ static esp_adc_cal_characteristics_t adc1_chars;
 static uint32_t configured=0;
 
 /**
-*@brief configures the adc1 unit, mostly defaults with an attenuation of 11 decibels
+*@brief configures the adc1 unit, mostly defaults with an attenuation of 11 decibels ( attenuate voltages before measuring since the adc channels can only take 1.1V)
 */
 static void configure(void)
 {
