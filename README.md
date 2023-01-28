@@ -5,4 +5,4 @@ This was made for educational purposes only and should not be used for productio
 ## Author
 Github: [abdellah2288](https://github.com/abdellah2288)
 ## License
-[GPL v2](https://ww.gnu.org/licenses/old-licenses/gpl-2.0.txt)
+[GPL v2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt)

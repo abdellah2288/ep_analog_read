@@ -6,14 +6,14 @@
 * ADC1_CHANNEL_6 <=> GPIO34 <=> D34
 * ADC1_CHANNEL_7 <=> GPIO35 <=> D35
 */
+#ifndef _MAIN_READ_ANALOG_H
 #include "driver/adc.h"
-#include "esp_adc/deprecated/esp_adc_cal.h"
 #define _MAIN_READ_ANALOG_H
-/*
-* reads analog values as voltages takes ADC1_CHANNEL_{channel number} as an argument
+#endif
+
+/**
+*@brief reads raw analog input using the ADC1 unit
+*@param channel channel number from available channels
+*@return raw analog input value
 */
-uint read_analog_voltage(uint8_t channel);
-/*
-* reads raw analog takes ADC1_CHANNEL_{channel number} as an argument
-*/
-int read_analog_raw(uint8_t channel);
+int read_analog_raw(int channel);
