@@ -10,7 +10,8 @@ static esp_adc_cal_characteristics_t adc1_chars;
 static uint32_t configured=0;
 
 /**
-*@brief configures the adc1 unit, mostly defaults with an attenuation of 11 decibels ( attenuate voltages before measuring since the adc channels can only take 1.1V)
+*@brief configures the adc1 unit, mostly defaults with an attenuation of 11 decibels 
+* check (https://docs.espressif.com/projects/esp-idf/en/v4.4/esp32/api-reference/peripherals/adc.html)
 */
 static void configure(void)
 {
